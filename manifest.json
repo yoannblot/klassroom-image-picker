@@ -1,0 +1,18 @@
+{
+  "name": "Klassroom image picker",
+  "version": "1.0",
+  "description": "Retrieve pictures from the klassroom web application",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Save picture"
+  },
+  "manifest_version": 2
+}
